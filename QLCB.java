@@ -13,7 +13,7 @@ public class QLCB {
 		Scanner sc = new Scanner(System.in);
 		int n, luachon;
 		// tai sao a = 0?
-		int a = 0 ,b = 0,c,d,f;
+		int a = 0 ,b = 0;
 		do {
 			
 			menu();
@@ -60,8 +60,8 @@ public class QLCB {
 					case 2:
 						
 						System.out.println("So luong kysu can nhap");
-						d = Integer.parseInt(sc.nextLine());
-					    Array =new int[d];
+						n = Integer.parseInt(sc.nextLine());
+					    Array =new int[n];
 						for(int i =0;i<Array.length;i++) {
 							Kysu ks = new Kysu();
 							ks.add();
@@ -70,8 +70,8 @@ public class QLCB {
 						break;
 					case 3:
 						System.out.println("So luong cong nhan can nhap");
-						f = Integer.parseInt(sc.nextLine());
-					    Array =new int[f];
+						n = Integer.parseInt(sc.nextLine());
+					    Array =new int[n];
 						for(int i =0;i<Array.length;i++) {
 							Congnhan cn = new Congnhan();
 							cn.add();
